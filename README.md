@@ -1,10 +1,5 @@
 # labwork3
+3 Работа.
 
-The program from the first labwork.
-With new features:
-
--search for function values iteratively on a given interval
-
--subsequent recording of x and y values in a text file
-
--at each new start, reading already recorded values from the file
+Функционал все той же программы уже из  второй лабораторной дополнен функциями чтения и записи из текстового файла, посредством потоков if и of. 
+При каждом вычислении все абсциссы добавляются в список x_to_rwite, то же самое и с ординатами в y_to_write. Соответственно затем с помощью автоцикла эти списки в потоке записываются в файл.
